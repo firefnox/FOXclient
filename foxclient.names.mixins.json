@@ -1,0 +1,14 @@
+{
+	"required": false,
+	"minVersion": "0.8",
+	"package": "com.foxclient.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"NameHiderTabMixin",
+		"NameHiderTagMixin",
+		"NameHiderTextMixin"
+	],
+	"injectors": {
+		"defaultRequire": 0
+	}
+}

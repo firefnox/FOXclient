@@ -1,0 +1,17 @@
+{
+	"required": true,
+	"package": "com.foxclient.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"CameraMixin",
+		"ClientPacketListenerMixin",
+		"LightmapRenderStateExtractorMixin",
+		"ScreenMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

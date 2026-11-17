@@ -1,0 +1,13 @@
+{
+	"required": false,
+	"minVersion": "0.8",
+	"package": "com.foxclient.mixin.optional",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"FogRendererMixin",
+		"SkyRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 0
+	}
+}
