@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "foxclient",
+	"version": "${version}",
+	"name": "FoxClientv2.0",
+	"description": "FoxClientv2.0 - client-side utility client: BlockRadar, Entity ESP, Fullbright, Sound Radar, Freecam, StaffWatch, cosmetics, Spotify/lyrics and a local assistant. Client only; no gameplay packets outside the labelled combat modules.",
+	"authors": [
+		"you"
+	],
+	"license": "CC0-1.0",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.foxclient.FoxClient"
+		]
+	},
+	"mixins": [
+		{
+			"config": "foxclient.client.mixins.json",
+			"environment": "client"
+		},
+		{
+			"config": "foxclient.optional.mixins.json",
+			"environment": "client"
+		},
+		{
+			"config": "foxclient.input.mixins.json",
+			"environment": "client"
+		},
+		{
+			"config": "foxclient.names.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
